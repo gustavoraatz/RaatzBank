@@ -41,12 +41,12 @@ namespace RaatzBank
             switch(res)
             {
                 case 1: CriarConta(); break;
-                //case 2: Depositar(); break;
-                //case 3: Sacar(); break;
-                //case 4: Transferencia(); break;
-                //case 5: VerSaldo(); break;
-                //case 6: Historico(); break;
-                //case 7: ContasCadastradas(); break;
+                case 2: Depositar(); break;
+                case 3: Sacar(); break;
+                case 4: Transferencia(); break;
+                case 5: VerSaldo(); break;
+                case 6: Historico(); break;
+                case 7: ContasCadastradas(); break;
                 case 0: System.Environment.Exit(0); break;
                 default: Menu(); break;
             }
