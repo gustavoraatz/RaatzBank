@@ -57,11 +57,29 @@ namespace RaatzBank
         {
             Console.Clear();
 
-            Console.WriteLine("RaatzBank");
-            Console.WriteLine("----------");
-
             Console.WriteLine("Insira seu número de cadastro");
 
         }
+
+        static void Depositar()
+        {
+
+        }
+
+        static void Sacar()
+        {
+
+        }
+
+        static void Transferencia()
+        {
+
+        }
+
+        static void VerSaldo()
+        {
+
+        }
+
     }
 }
